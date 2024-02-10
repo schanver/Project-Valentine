@@ -10,7 +10,7 @@ body {
     justify-content: center;
 }
 
-input[type="button"] {
+#yes, #no {
     margin: 0 5px; /* Add space between the buttons */
     font-size: 25px;
 }
