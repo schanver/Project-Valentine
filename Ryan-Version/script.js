@@ -5,7 +5,7 @@ const yesButton = document.getElementById("yes");
     let count = 0;
     yesButton.addEventListener("click", () => {
             // Change the image source to the new image
-        image.src = "./smile.png"; // Set the new image source here
+        image.src = "./img/smile.gif"; // Set the new image source here
         title.textContent = "YAYY! ❤️❤️❤️"
         container.style.display = "none";
     });
@@ -13,19 +13,19 @@ const yesButton = document.getElementById("yes");
     noButton.addEventListener("click", () => {
         count += 1;
         if (count === 1) {
-           image.src = "./denial.jpg";
+           image.src = "./img/denial.gif";
            title.textContent = "Are you sure you don't want to date me? 🥺";      
            yesButton.innerHTML = "I want to";
            noButton.innerHTML = "I am sure";
         }
         else if (count === 2) {
-            image.src = "./frustration.jpg";
+            image.src = "./img//frustration.jpg";
             title.textContent = "Are you REALLY sure you don't want to date me?";
             yesButton.va = "I changed my mind";
             noButton.innerHTML = "I am certain";
         }
         else if (count > 2) {
-            image.src = "./damn.gif";
+            image.src = "./img/damn.jpg";
             title.textContent = "Damn, alright then. Have a nice day.";
             container.style.display = "none";
 
