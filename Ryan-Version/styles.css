@@ -1,0 +1,21 @@
+body {
+    text-align: center; /* Center align all the elements inside the body */
+}
+
+#frame {
+    margin-bottom: 15px; /* Add space between the image and buttons */
+    max-width: 100%;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#yes, #no {
+    margin: 0 5px; /* Add space between the buttons */
+    font-size: 25px;
+}
+#image {
+    margin: 0 auto;
+    display: block;
+    max-width: 80%;
+}
