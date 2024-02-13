@@ -5,8 +5,7 @@ const yesButton = document.getElementById("yes");
     let count = 0;
     yesButton.addEventListener("click", () => {
             // Change the image source to the new image
-        //image.src = "./img/smile.png"; // Set the new image source here
-        img.src ="https://i.imgur.com/dbGDbcR.mp4";
+        image.src = "./img/yay.gif"; // Set the new image source here
         title.textContent = "YAYY! ❤️❤️❤️"
         container.style.display = "none";
     });
