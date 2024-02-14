@@ -16,6 +16,8 @@ body {
 }
 #image {
     margin: 0 auto;
+    height: auto;
+    width: auto;
     display: block;
     max-width: 80%;
 }
