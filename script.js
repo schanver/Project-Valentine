@@ -1,11 +1,14 @@
 const yesButton = document.getElementById("yes");
     const image = document.getElementById("image");
     const title = document.getElementById("title");
+	const gif = document.getElementById("gif");
     const container = document.getElementById("button-container");
     let count = 0;
     yesButton.addEventListener("click", () => {
             // Change the image source to the new image
-        image.src = "./img/yay.gif"; // Set the new image source here
+        //image.src = "./img/yay.gif"; // Set the new image source here
+		gif.style.display = "block";
+		image.style.display = "none";
         title.textContent = "YAYY! ❤️❤️❤️"
         container.style.display = "none";
     });
